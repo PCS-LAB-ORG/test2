@@ -14,5 +14,6 @@ module "ec2_instance" {
   tags = {
     Terraform   = "true"
     Environment = "dev"
+    yor_trace   = "a701cc94-b124-477b-a2f1-575d198ea8db"
   }
 }
